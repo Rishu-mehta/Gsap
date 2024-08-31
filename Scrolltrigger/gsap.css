@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.page1,.page2,.page3,.page4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    width: 30rem;
+    height: 30rem;
+    background-color: greenyellow;
+}
+.page1{
+    background-color: crimson;
+
+}
+.page2{
+    background-color: cadetblue;
+
+}
+.page3{
+    background-color: gray;
+}
+.page4{
+    background-color: chocolate;
+}
+.page2 h1{
+    font-size: 20rem;
+    font-weight: 20px;
+    text-transform: uppercase;
+    /* transform: translateX(-500px); */
+}
